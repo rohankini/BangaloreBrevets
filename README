@@ -6,7 +6,7 @@ Create a git account and let us know so that we can add you as a collaborator
 
 Then
 
-git clone https://github.com/rohankini/BangaloreBrevets
+git clone https://github.com/rohankini/BangaloreBrevets.git
 
 Every time you want to make a change
 
