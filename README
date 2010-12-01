@@ -1,3 +1,18 @@
 Crowd sourced for BangaloreBrevets.in
 
+How to contribute
+
+Create a git account and let us know so that we can add you as a collaborator
+
+Then
+
+git clone https://github.com/rohankini/BangaloreBrevets
+
+Every time you want to make a change
+
+git pull (gets the latest code from the central repo)
+git add . (adds everything to a staged area)
+git commit -am 'commit message' (commits locally)
+git push (pushes changes to remote repo)
+
 The Site would be auto deployed every half hour with whatever changes are made.
