@@ -2,42 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>BRM 200</title>
-    <style type="text/css">
-        a:link
-        {
-            color: white;
-            text-decoration: none;
-        }
-        a:visited
-        {
-            color: white;
-            text-decoration: none;
-        }
-        TABLE#main a:link
-        {
-            color: blue;
-            text-decoration: none;
-        }
-        TABLE#main a:visited
-        {
-            color: blue;
-            text-decoration: none;
-        }
-        TABLE#main a:hover
-        {
-            color: red;
-            text-decoration: underline;
-        }
-        a:hover
-        {
-            color: red;
-            text-decoration: underline;
-        }
-        a:active
-        {
-            color: red;
-        }
-    </style>
+    <style>
+    body{font-family:arial;}
+    table{font-size:80%}
+    a{color:black;text-decoration:none;font:bold}
+    a:hover{color:white;background:Silver}
+    td.menu{background:Silver}
+    table.menu{font-size:80%;position:absolute;visibility:hidden;}
+</style>
+<script type="text/javascript">
+function showmenu(elmnt)
+{document.getElementById(elmnt).style.visibility="visible";
+document.getElementById(elmnt).style.backgroundColor="white";
+}
+function hidemenu(elmnt)
+{
+document.getElementById(elmnt).style.visibility="hidden";
+}
+</script>
+
 
     <script type="text/javascript">
 
@@ -59,43 +42,23 @@
         <img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
             alt="Fork me on GitHub">
     </a>
-    <map name="map1">
-        <area shape="RECT" coords="78,10,135,25" href="http://www.bangalorebrevets.in/LaunchRide.htm"
-            title="Launch Ride">
-        <area shape="RECT" coords="185,10,270,25" href="http://www.bangalorebrevets.in/Registration.htm"
-            title="registration">
-        <area shape="RECT" coords="330,10,380,25" href="http://www.bangalorebrevets.in/Training.htm"
-            title="training">
-        <area shape="RECT" coords="435,10,490,25" href="http://www.bangalorebrevets.in/Contest.htm"
-            title="contest">
-        <area shape="RECT" coords="545,10,590,25" href="http://www.bangalorebrevets.in/Forum.htm"
-            title="forum">
-        <area shape="RECT" coords="655,10,725,25" href="http://www.bangalorebrevets.in/ContactUs.htm"
-            title="contact us">
-    </map>
-    <map name="map2">
-        <area shape="RECT" coords="45,5,75,20" href="#H1" title="PBP">
-        <area shape="RECT" coords="120,5,220,20" href="#H2" title="PBP qualifiers">
-        <area shape="RECT" coords="265,5,405,20" href="#H3" title="Bangalore Brevets">
-        <area shape="RECT" coords="445,5,585,20" href="#H4" title="Bangalore Calendar">
-        <area shape="RECT" coords="625,5,725,20" href="#H5" title="Missed a ride?">
-    </map>
-    <map name="map3">
+   
+   <map name="map3">
         <area shape="RECT" coords="565,10,745,230" href="http://www.bangalorebrevets.in"
             title="home page">
     </map>
     <h6 id="Top">
     </h6>
-    <table align="center" style="font-size: small; font-family: Verdana;" bgcolor="white"
+    <table align="center" style="width: 810px;" bgcolor="white"
         cellpadding="0" cellspacing="0">
         <tr>
-            <td align="center" colspan="8" style="height: 50px">
+            <td align="center" colspan="8" style="height: 25px">
             </td>
         </tr>
         <tr>
             <td align="center" colspan="8">
                 <!-- generic, change as required -->
-                <img src="Images/Header.jpg" usemap="#map3" border="none" />
+                <img src="Images/Header.jpg" usemap="#map3" border="none" width="800" />
             </td>
         </tr>
         <tr>
@@ -103,49 +66,44 @@
             </td>
         </tr>
         <tr>
-            <td align="center" colspan="8" style="width: 801px" bgcolor="#000000">
-                <table align="center" bgcolor="black" cellpadding="0" cellspacing="0" style="font-size: small;
-                    font-family: Verdana" width="80%">
-                    <tr>
-                        <td align="center" style="border-right: #ffffff thin solid; border-top: #000000 thin solid;
-                            border-left: #000000 thin solid; border-bottom: #000000 thin solid">
-                            <a href="http://www.bangalorebrevets.in" style="text-decoration: none">home</a>
-                        </td>
-                        <td align="center" style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin;
-                            border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/TheRide.htm" style="text-decoration: NONE">the
-                                ride</a>
-                        </td>
-                        <td align="center" style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin;
-                            border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/Registration.htm" style="text-decoration: NONE">
-                                registration</a>
-                        </td>
-                        <td align="center" style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin;
-                            border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/Training.htm" style="text-decoration: NONE">
-                                training</a>
-                        </td>
-                        <td align="center" style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin;
-                            border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/Contest.htm" style="text-decoration: NONE">contest</a>
-                        </td>
-                        <td align="center" style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin;
-                            border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/PastRides.htm" style="text-decoration: none">
-                                past rides</a>
-                        </td>
-                        <td align="center" style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin;
-                            border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/BRM200.htm" style="text-decoration: none">upcoming
-                                ride</a>
-                        </td>
-                        <td align="center">
-                            <a href="http://www.bangalorebrevets.in/ContactUs.htm" style="text-decoration: NONE">
-                                contact us</a>
-                        </td>
-                    </tr>
-                </table>
+            <td align="center" colspan="8" style="width: 800px" >
+                        <table   cellpadding="0" cellspacing="0" style="font-size: medium; width: 800px; height: 30px; background-color: silver;">
+      
+      <td style="width: 150px;"><a href="http://www.bangalorebrevets.in" title="Home">Home</a></td>
+      
+      <td onmouseover="showmenu('tutorials')" onmouseout="hidemenu('tutorials')" align="left" style="width: 150px;">
+       <a href="/default.asp">The ride</a>
+       <table class="menu" id="tutorials" width="150" >
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/TheRide.htm" title="The regulations">The regulations</a></td></tr>
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/TheRoute.htm" title="The route">The route</a></td></tr>
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/PastRides.htm" title="Past rides">Past rides</a></td></tr>
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/BRM200.htm" title="upcoming rides">Upcoming rides</a></td></tr>
+       </table>
+      </td>
+      <td onmouseover="showmenu('scripting')" onmouseout="hidemenu('scripting')" align="left" style="width: 150px;">
+       <a href="/default.asp">Registration</a>
+       <table class="menu" id="scripting" width="150">
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Registration.htm" title="Registrations for Brevets">How to register?</a></td></tr>
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Riders-BRM200.htm" title="Current riders">List of registered rides</a></td></tr>
+       <tr><td class="menu"><a href=#>What is included?</a></td></tr>
+       </table>
+      </td>
+      
+      
+      <td onmouseover="showmenu('validation')" onmouseout="hidemenu('validation')" align="left" style="width: 150px;">
+       <a href="/site/site_validate.asp">Preparation</a>
+       <table class="menu" id="validation" width="150">
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Training.htm" title = "Which bike is the right bike?">Which is the right bike?</a></td></tr>
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Training.htm" title ="Nutrition">Nutrition</a></td></tr>
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Training.htm" title ="Clothing">Clothing</a></td></tr>
+       <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Training.htm" title ="Pratice rides">Pratice rides</a></td></tr>
+       </table>
+      </td>
+      <td style="width: 150px;"><a href=#>Riders profile</a></td>
+      <td style="width: 150px;"><a href="/default.asp">Contest</a></td>
+      <td style="width: 150px;"><a href=#>Contact us</a></td>
+    </table>
+
             </td>
         </tr>
         <tr>
@@ -168,33 +126,6 @@
                         <td colspan="3" rowspan="3" style="padding-right: 5px; padding-left: 5px; font-size: small;
                             padding-bottom: 5px; color: black; padding-top: 5px; font-family: Verdana; height: 100px;
                             background-color: transparent; text-align: justify">
-                            <table>
-                                <tr>
-                                    <td align="center" colspan="3" rowspan="3">
-                                        <!--<img src="Images/LaunchRide.jpg" />-->
-                                    </td>
-                                </tr>
-                                <tr>
-                                </tr>
-                                <tr>
-                                </tr>
-                                <tr>
-                                    <td colspan="3" rowspan="1" valign="top">
-                                        <!--Bangalore Brevets will launch with an
-			    inaugural 200km ride on December 5th,
-			    2010! This ride is not ACP sanctioned, but
-			    a teaser for the actual 200km ride to come
-			    in January.	    
-
-			    <p>
-			    This launch ride also has the option of
-			    riding 100km. Just show up at the
-			    registration desk and select the same on
-			    your brevet card.
-			    </p>-->
-                                    </td>
-                                </tr>
-                            </table>
                             <p>
                                 &nbsp;</p>
                             <h2>
@@ -206,76 +137,74 @@
                             <table style="width: 842px; height: 369px">
                                 <tr>
                                     <td style="width: 603px">
-                                        <iframe src="http://www.bangalorebrevets.in/BRM200.htm" width="600"
-                                            height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                                        </iframe>
+                                        <iframe frameborder="0" height="400" marginheight="0" marginwidth="0" scrolling="no"
+                                            src="http://www.gpsies.com/mapOnly.do?fileId=xacrzekzeiodqfgp" width="600"></iframe>
                                     </td>
-                                    <td style="color: white; background-color: #000000">
-                                        <b>
-                                            <table style="font-weight: bold" border="1">
-                                                <tr>
-                                                    <td colspan="2" style="font-weight: bold; color: #ffff66; text-align: center">
+                                    <td valign="top" align="left">
+                                        <table border="0" cellpadding="0" cellspacing="0" style="border-right: #3399ff thin solid;
+                                            padding-right: 5px; border-top: #3399ff thin solid; padding-left: 5px; font-size: small;
+                                            padding-bottom: 5px; border-left: #3399ff thin solid; color: #3399ff; padding-top: 5px;
+                                            border-bottom: #3399ff thin solid; font-family: arial; background-color: #d7f9ff">
+                                            <tr>
+                                                <td align="center" colspan="2" style="border-right: #3399ff thin solid; border-top: #3399ff thin solid;
+                                                    font-weight: bold; border-left: #3399ff thin solid; color: white; border-bottom: #3399ff thin solid;
+                                                    background-color: #3399ff">
                                                         Ride Details
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="color: #ffff66; font-weight: normal;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
                                                         From
-                                                    </td>
-                                                    <td>
+                                                </td>
+                                                <td align="left" style="font-weight: normal">
                                                         Cubbon Park
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="color: #ffff66; font-weight: normal;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
                                                         To
-                                                    </td>
-                                                    <td>
-                                                        Mandya
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="color: #ffff66; font-weight: normal;">
-                                                        Distance
-                                                    </td>
-                                                    <td>
+                                                </td>
+                                                <td align="left" style="font-weight: normal">
+                                                    Mandya
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
+                                                    Distance
+                                                </td>
+                                                <td align="left" style="font-weight: normal">
                                                         200 Kms
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="color: #ffff66; font-weight: normal;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
                                                         Date
-                                                    </td>
-                                                    <td>
-                                                        Jan 15, 2011
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="color: #ffff66; font-weight: normal;">
+                                                </td>
+                                                <td align="left" style="font-weight: normal">
+                                                    Jan 15, 2011
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
                                                         Time Limit
-                                                    </td>
-                                                    <td>
-                                                        Jan 15, 0600 am to Jan 15, 07:30 pm
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="color: #ffff66; font-weight: normal;">
+                                                </td>
+                                                <td align="left" style="font-weight: normal">
+                                                    Jan 15, 0600 am to Jan 15, 07:30 pm
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
                                                         Dailymile Challenge
-                                                    </td>
-                                                    <td>
-                                                        <a href="http://www.dailymile.com/challenges/2256-brm-200k-challenge-acp-approved-ride">
-                                                            <font color=white>Join today!..</font></a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <br />
-                                        </b><a href="https://spreadsheets.google.com/viewform?formkey=dFh6aWxMSEtKbFQ1LTItaEJIWldHeWc6MA"
-                                            target="Register"><strong><font color=white>Register</font></strong></a><br />
+                                                </td>
+                                                <td align="left">
+                                                    <a href="http://www.dailymile.com/challenges/2256-brm-200k-challenge-acp-approved-ride">
+                                                        <span style="font-weight: bold; font-size: small; color: red">Join today!..</span></a>
+                                                </td>
+                                            </tr>
+                                        </table>
                                         <br />
                                         <br />
-                                        <br />
-                                        <br />
-                                        <a href="#Top"><font color=white>^ Top</font></a>
+                                         <a href="#Top">^ Top</a>
                                     </td>
                                 </tr>
                             </table>
@@ -366,27 +295,19 @@
         </tr>
         <tr>
             <td align="center" colspan="8" style="width: 801px; height: 24px">
-            </td>
-        </tr>
-        <tr>
-            <td align="center" colspan="8" style="width: 801px; height: 24px">
-                <table cellpadding="0" cellspacing="0" style="padding-right: 5px; font-weight: bold;
-                    font-size: small; color: white; font-family: Verdana; height: 1px; background-color: black;
-                    text-align: right; font-variant: small-caps" width="769">
+                <table cellpadding="0" cellspacing="0" style="padding-right: 5px; font-size: small;
+                    color: black; font-family: Arial; height: 30px; background-color: silver; text-align: right;
+                    font-variant: normal" width="800">
                     <tr>
                         <td colspan="3" rowspan="3">
-                            Powered by <a href='http://www.bangalorebikersclub.com/'>BBC</a></td>
+                Copyright 2010-2011 | Bangalore Brevets | All Rights Reserved
+                        </td>
                     </tr>
                     <tr>
                     </tr>
                     <tr>
                     </tr>
                 </table>
-            </td>
-        </tr>
-        <tr>
-            <td align="center" colspan="8" style="width: 801px; height: 24px">
-                Copyright 2010-2011 | Bangalore Brevets | All Rights Reserved
             </td>
         </tr>
         <tr>
