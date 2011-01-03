@@ -1,13 +1,32 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
-    <title>Contact US</title>
-            <STYLE TYPE="text/css">
-      a:link {color: white; text-decoration: none; }
-      a:visited {color: white; text-decoration: none; }
-      a:hover {color: red; text-decoration: underline; }
-      a:active {color: red; }
-    </STYLE>
+
+<title>Contact Us</title>
+    
+    
+<style>
+    body{font-family:arial;}
+    table{font-size:80%}
+    a{color:black;text-decoration:none;font:bold}
+    a:hover{color:white;background:Silver}
+    td.menu{background:Silver}
+    table.menu{font-size:80%;position:absolute;visibility:hidden;}
+</style>
+
+<script type="text/javascript">
+function showmenu(elmnt)
+{
+document.getElementById(elmnt).style.visibility="visible";
+document.getElementById(elmnt).style.backgroundColor="white";
+
+}
+function hidemenu(elmnt)
+{
+document.getElementById(elmnt).style.visibility="hidden";
+}
+</script>
+
     
     <script type="text/javascript">
 
@@ -23,7 +42,7 @@
 
     </script>
 </head>
-<body bgcolor="gray">
+<body>
 
 <map name="map1">
 <AREA shape=RECT coords="78,10,135,25" href="http://www.bangalorebrevets.in/TheRide.htm" title="the ride">
@@ -38,7 +57,7 @@
 </map>
 
   <a href="https://github.com/rohankini/BangaloreBrevets"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-    <table align="center" style="font-size: small; font-family: Verdana;" bgcolor="white" cellpadding="0" cellspacing="0">
+    <table align="center" style="width: 810px;" bgcolor="white" cellpadding="0" cellspacing="0">
         <tr>
             <td align="center" colspan="8" height="50">
             </td>
@@ -52,53 +71,54 @@
             </td>
         </tr>
         <tr>
-            <td align="center" colspan="8" style="width: 801px; height: 36px;" bgcolor="#000000">
-                <table align="center" bgcolor="black" cellpadding="0" cellspacing="0" style="font-size: small;
-                    font-family: Verdana" width="80%">
-                    <tr>
-                        <td align="center" style="border-right: #ffffff thin solid; border-top: #000000 thin solid;
-                            border-left: #000000 thin solid; border-bottom: #000000 thin solid">
-                            <a href="http://www.bangalorebrevets.in" style="text-decoration: none">
-                            home</a>
-                        </td>
-                       <td align=center 
-                            style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin; border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/TheRide.htm" STYLE="TEXT-DECORATION: NONE">the ride</a>
-                        </td>
-                        <td align=center 
-                            style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin; border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/Registration.htm" STYLE="TEXT-DECORATION: NONE">registration</a>
-                        </td>
-                        <td align=center 
-                            style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin; border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/Training.htm" STYLE="TEXT-DECORATION: NONE">training</a>
-                        </td>
-                        <td align=center 
-                            style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin; border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/Contest.htm" STYLE="TEXT-DECORATION: NONE">contest</a>
-                        </td>
-                        <td align=center 
-                            style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin; border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/PastRides.htm" style="text-decoration: none">past rides</a>
-                        </td>
-                        <td align=center 
-                            style="border-color: #000000 #FFFFFF #000000 #000000; border-width: thin; border-style: solid">
-                            <a href="http://www.bangalorebrevets.in/BRM200.htm" style="text-decoration: none">upcoming ride</a>
-                        </td>
-                        <td align=center>
-                            <a href="http://www.bangalorebrevets.in/ContactUs.htm" STYLE="TEXT-DECORATION: NONE">contact us</a>
-                        </td>
-                    </tr>
-                </table>
+            <td align="center" colspan="8" style="width: 801px; height: 36px;" >
+            <table   cellpadding="0" cellspacing="0" style="font-size: medium; width: 800px; height: 30px; background-color: silver;">
+                    
+
+  <td style="width: 150px;"><a href="http://www.bangalorebrevets.in" title="Home">Home</a></td>
+  
+  <td onmouseover="showmenu('tutorials')" onmouseout="hidemenu('tutorials')" align="left" style="width: 150px;">
+   <a href="/default.asp">The ride</a>
+   <table class="menu" id="tutorials" width="150" >
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/TheRide.htm" title="The regulations">The regulations</a></td></tr>
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Registration.htm" title="The route">The route</a></td></tr>
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/PastRides.htm" title="Past rides">Past rides</a></td></tr>
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/BRM200.htm" title="upcoming rides">Upcoming rides</a></td></tr>
+   </table>
+  </td>
+  <td onmouseover="showmenu('scripting')" onmouseout="hidemenu('scripting')" align="left" style="width: 150px;">
+   <a href="/default.asp">Registration</a>
+   <table class="menu" id="scripting" width="150">
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Registration.htm" title="Registrations for Brevets">How to register?</a></td></tr>
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Riders-BRM200.htm" title="Current riders">List of registered rides</a></td></tr>
+   <tr><td class="menu"><a href=#>What is included?</a></td></tr>
+   </table>
+  </td>
+  
+  
+  <td onmouseover="showmenu('validation')" onmouseout="hidemenu('validation')" align="left" style="width: 150px;">
+   <a href="/site/site_validate.asp">Preparation</a>
+   <table class="menu" id="validation" width="150">
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Training.htm" title = "Which bike is the right bike?">Which is the right bike?</a></td></tr>
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Training.htm" title ="Nutrition">Nutrition</a></td></tr>
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Training.htm" title ="Clothing">Clothing</a></td></tr>
+   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Training.htm" title ="Pratice rides">Pratice rides</a></td></tr>
+   </table>
+  </td>
+  <td style="width: 150px;"><a href=#>Riders profile</a></td>
+  <td style="width: 150px;"><a href="/default.asp">Contest</a></td>
+  <td style="width: 150px;"><a href=#>Contact us</a></td>
+</table>
+            
             </td>
         </tr>
         <tr>
-            <td align="center" colspan="8" height="10">
+            <td align="left" colspan="8" height="10">
             </td>
         </tr>
         <tr>
-            <td align="center" colspan="8" style="width: 801px; height: 24px">
-                <img src="Images/ContactUsH1.jpg" /></td>
+            <td align="left" colspan="8" style="width: 801px; height: 24px">
+                <h2>Contact Us</h2></td>
         </tr>
         <tr>
             <td align="center" colspan="8" style="height: 10px">
@@ -114,25 +134,9 @@
                             <strong><span style="font-size: 14pt">
                             </span></strong>
                             <strong><span><span style="color: red">
-                                            For any queries&nbsp; please contact<br />
-                                <br />
+                                            For any queries please contact
+                                            <A HREF="mailto:ride@bangalorebrevets.in">ride@bangalorebrevets.in</A>
                             </span>
-                                <table align="center" style="width: 500px; height: 61px;" bgcolor="silver">
-                                    <tr>
-                                        <td style="height: 18px">
-                                            <A HREF="mailto:rohan.kini@gmail.com">Rohan Kini</A> @ rohan.kini@gmail.com
-                                            </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <A HREF="mailto:r.venkatachalam@gmail.com">R Venkatachalam</A> @ r.venkatachalam@gmail.com
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <A HREF="mailto:mr.b.mishra@gmail.com">Vasu</A>@ mr.b.mishra@gmail.com</td> 
-                                    </tr>
-                                </table>
                             </span></strong></td>
                     </tr>
                     <tr>
