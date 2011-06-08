@@ -6,9 +6,9 @@
 
 <style>
     body{font-family:arial;}
-    table{font-size:80%}
-    a{color:black;text-decoration:none;font:bold}
-    a:hover{color:white;background:Silver}
+    table {font-size:80%}
+    #menu_bar a {color:black;text-decoration:none;font:bold}
+    #menu_bar a:hover {color:white;background:Silver}
     td.menu{background:Silver}
     table.menu{font-size:80%;position:absolute;visibility:hidden;}
 </style>
@@ -68,43 +68,42 @@ document.getElementById(elmnt).style.visibility="hidden";
         <tr>
             <td align="center"  style="height: 38px""Black">
 
-<table   cellpadding="0" cellspacing="0" style="font-size: medium; width: 800px; height: 30px; background-color: silver;">
-                    
-
-  <td style="width: 150px;"><a href="http://www.bangalorebrevets.in" title="Home">Home</a></td>
-  
-  <td onmouseover="showmenu('tutorials')" onmouseout="hidemenu('tutorials')" align="left" style="width: 150px;">
-   The Ride
-   <table class="menu" id="tutorials" width="150" >
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/TheRide.htm" title="The regulations">The regulations</a></td></tr>
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/TheRoute.htm" title="The route">The route</a></td></tr>
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/PastRides.htm" title="Past rides">Past rides</a></td></tr>
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/BRM200.htm" title="upcoming rides">Upcoming rides</a></td></tr>
-   </table>
-  </td>
-  <td onmouseover="showmenu('scripting')" onmouseout="hidemenu('scripting')" align="left" style="width: 150px;">
-   Registration
-   <table class="menu" id="scripting" width="150">
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/TheRoute.htm" title="Registrations for Brevets">How to register?</a></td></tr>
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Riders-BRM200.htm" title="Current riders">List of registered rides</a></td></tr>
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/WhatIsIncluded.htm">What is included?</a></td></tr>
-   </table>
-  </td>
-  
-  
-  <td onmouseover="showmenu('validation')" onmouseout="hidemenu('validation')" align="left" style="width: 150px;">
-   Preparation
-   <table class="menu" id="validation" width="150">
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/RightBikeForMe.htm" title = "Which bike is the right bike?">Which is the right bike?</a></td></tr>
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Nutrition.htm" title ="Nutrition">Nutrition</a></td></tr>
-   <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Clothing.htm" title ="Clothing">Clothing</a></td></tr>
-    
-   </table>
-  </td>
-  <td style="width: 150px;"><a href="http://www.bangalorebrevets.in/RiderProfile.htm">Riders profile</a></td>
-  <td style="width: 150px;"><a href="http://www.bangalorebrevets.in/Contest.htm">Contest</a></td>
-  <td style="width: 150px;"><a href="http://www.bangalorebrevets.in/ContactUs.htm">Contact us</a></td>
-</table>
+	      <table id="menu_bar"  cellpadding="0" cellspacing="0" style="font-size: medium; width: 800px; height: 30px; background-color: silver;">
+                
+		<td style="width: 150px;"><a href="http://www.bangalorebrevets.in" title="Home">Home</a></td>
+		
+		<td onmouseover="showmenu('tutorials')" onmouseout="hidemenu('tutorials')" align="left" style="width: 150px;">
+		  The Ride
+		  <table class="menu" id="tutorials" width="150" >
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/TheRide.htm" title="The regulations">The regulations</a></td></tr>
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/TheRoute.htm" title="The route">The route</a></td></tr>
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/PastRides.htm" title="Past rides">Past rides</a></td></tr>
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/BRM200.htm" title="upcoming rides">Upcoming rides</a></td></tr>
+		  </table>
+		</td>
+		<td onmouseover="showmenu('scripting')" onmouseout="hidemenu('scripting')" align="left" style="width: 150px;">
+		  Registration
+		  <table class="menu" id="scripting" width="150">
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/TheRoute.htm" title="Registrations for Brevets">How to register?</a></td></tr>
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Riders-BRM200.htm" title="Current riders">List of registered rides</a></td></tr>
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/WhatIsIncluded.htm">What is included?</a></td></tr>
+		  </table>
+		</td>
+		
+		
+		<td onmouseover="showmenu('validation')" onmouseout="hidemenu('validation')" align="left" style="width: 150px;">
+		  Preparation
+		  <table class="menu" id="validation" width="150">
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/RightBikeForMe.htm" title = "Which bike is the right bike?">Which is the right bike?</a></td></tr>
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Nutrition.htm" title ="Nutrition">Nutrition</a></td></tr>
+		    <tr><td class="menu"><a href="http://www.bangalorebrevets.in/Clothing.htm" title ="Clothing">Clothing</a></td></tr>
+		    
+		  </table>
+		</td>
+		<td style="width: 150px;"><a href="http://www.bangalorebrevets.in/RiderProfile.htm">Riders profile</a></td>
+		<td style="width: 150px;"><a href="http://www.bangalorebrevets.in/Contest.htm">Contest</a></td>
+		<td style="width: 150px;"><a href="http://www.bangalorebrevets.in/ContactUs.htm">Contact us</a></td>
+	      </table>
             </td>
         </tr>
         <tr>
