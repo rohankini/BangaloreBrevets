@@ -64,7 +64,7 @@ xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/
   <sym>flag, blue</sym>
 </wpt>
 <wpt lat="13.61066387" lon="76.954733469000004">
-  <name>Karadevanahalli</name>
+  <name>Karajeevanahalli</name>
   <ele>704.04589799999997</ele>
   <desc>04-JUN-11 1:27:46AM</desc>
   <sym>flag, blue</sym>
@@ -566,7 +566,7 @@ xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/
 
 
 
-<!--  <name>001 IISc-Karadevanahalli</name>-->
+<!--  <name>001 IISc-Karajeevanahalli</name>-->
 
   <trkpt lat="13.014629083000001" lon="77.573206192000001">
     <ele>926.36767599999996</ele>
@@ -2509,7 +2509,7 @@ xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/
 
 
 
-<!--  <name>003 Kamat- -Karadevanahalli</name>-->
+<!--  <name>003 Kamat- -Karajeevanahalli</name>-->
 
   <trkpt lat="13.214236" lon="77.255476993000002">
     <ele>924.44506799999999</ele>
@@ -4204,7 +4204,7 @@ xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/
 
 
 
-<!--  <name>20 Karadevanahalli-Bangalore (Return)</name>-->
+<!--  <name>20 Karajeevanahalli-Bangalore (Return)</name>-->
 
   <trkpt lat="13.612099606999999" lon="76.954615786999994">
     <ele>685.55737299999998</ele>
