@@ -1,4 +1,4 @@
 date 
-cd /home/rkini/apps/bangalorebrevets.in 
+cd /home/bumsont/apps/bangalorebrevets.in
 git checkout . 
 git pull
