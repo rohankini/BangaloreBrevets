@@ -1,0 +1,5 @@
+#!/usr/bin/gawk -f
+BEGIN {FS=","}
+NR % 3 == 1 { printf "<dt style='margin-top: 1em;' >Thursday 21 June, 2012 - <a href='%s'>%s</a></dt>\n", $1, $2}
+NR % 3 == 2 { printf "<dd><a href='%s'>See all Registrations</a>\n", $1}
+NR % 3 == 0 {printf "<a href='%s'>Results</a></dd>\n", $1}
